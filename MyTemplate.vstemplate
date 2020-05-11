@@ -1,0 +1,29 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Middleware_nUnit_Test</Name>
+    <Description>VB.NET ASP.NET Core 3.1 Middleware nUnit Test Vs2019 projectTemplate</Description>
+    <ProjectType>VisualBasic</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Middleware_nUnit_Test</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+    <PreviewImage>__PreviewImage.ico</PreviewImage>
+	<LanguageTag>Visual Basic</LanguageTag>
+	<PlatformTag>Windows</PlatformTag>
+	<PlatformTag>Linux</PlatformTag>
+	<ProjectTypeTag>Test</ProjectTypeTag>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="CoreLinuxNUnitTest1.vbproj" File="CoreLinuxNUnitTest1.vbproj" ReplaceParameters="true">
+      <Folder Name=".git" TargetFolderName=".git" />
+      <ProjectItem ReplaceParameters="true" TargetFileName="CoreLinuxNUnitTest1.vb">CoreLinuxNUnitTest1.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MockLogger.vb">MockLogger.vb</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
